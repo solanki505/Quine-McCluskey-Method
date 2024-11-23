@@ -32,77 +32,12 @@ Essential Prime Implicants (EPIs) are highlighted or marked for clarity.
 Input Format
 The program takes the following input:
 
-A list of minterms (required).
-A list of don't-care terms (optional).
-Example:
-Enter number of variables: 4
-Enter minterms space separated : 2 3 5 6 9 14
-Enter dontcares: 0 1
-Given minterms are 
-['2', '3', '5', '6', '9', '14']
-Don't care -
-Don't Care:  ['0', '1']
-================================================================================
-   Group                                     Binary numbers
-================================================================================
-    0                                       : 0000, 
-    1                                       : 0010, 0001, 
-    2                                       : 0011, 0101, 0110, 1001, 
-    3                                       : 1110, 
-    4                                       : 
-================================================================================
-   Minterms                             Binary value
-Usage Example
 This section demonstrates how to run the program and what output to expect.
 
-Input:
-Enter the number of variables: 4
-Enter the minterms (space-separated): 2 3 5 6 9 14
-Enter the don't-care terms (space-separated): 0 1
-bash
-Copy code
-Enter number of variables: 4
-Enter minterms space separated: 2 3 5 6 9 14
-Enter don'tcares: 0 1
-Output:
-text
-Copy code
-Given minterms are 
-['2', '3', '5', '6', '9', '14']
-Don't care -
-Don't Care:  ['0', '1']
 
-================================================================================
-   Group                                     Binary numbers
-================================================================================
-    0                                       : 0000, 
-    1                                       : 0010, 0001, 
-    2                                       : 0011, 0101, 0110, 1001, 
-    3                                       : 1110, 
-    4                                       : 
-================================================================================
-   Minterms                             Binary value
-===========================================================================================
-   (2, 6)                                  0_10
-   (1, 5)                                  0_01
-   (1, 9)                                  _001
-   (6, 14)                                 _110
-   (0, 1, 2, 3)                            00__
-===========================================
-PI Chart Matrix:
-===========================================
-                : 2   3   5   6   9  14
-(2, 6)          : X           X        
-(1, 5)          :        X            
-(1, 9)          :                X    
-(6, 14)         :            X       X
-(0, 1, 2, 3)    : X   X                
-===========================================
-All minterms are covered. Exiting.
-===========================================
-===========================================
-Expression: 
-BCD' + A'C'D + A'B' + B'C'D +
+![Screenshot 2024-11-23 144339](https://github.com/user-attachments/assets/ea3d113d-b2d9-41b6-b887-3f1189b38826)
+
+
 Explanation:
 The input specifies 4 variables and provides the minterms and don't-care terms.
 The minterms and don't-care terms are grouped by the number of ones in their binary representation.
