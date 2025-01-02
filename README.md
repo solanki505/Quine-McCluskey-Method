@@ -74,14 +74,16 @@ The principles of minimization can be applied to code optimization, making softw
 
 #### Data Analysis
 Techniques learned can be transferred to other areas of data reduction and pattern recognition.
+
 Copy code
+
 ```bash
 git clone https://github.com/solanki505/Quine-McCluskey-Method.git
 ```
 Navigate to the project directory:
 
 
-Copy code
+
 ```bash
 cd quine-mccluskey-algorithm
 ```
