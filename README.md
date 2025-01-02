@@ -43,7 +43,7 @@ This section demonstrates how to run the program and what output to expect.
 ![Screenshot 2024-11-23 144339](https://github.com/user-attachments/assets/ea3d113d-b2d9-41b6-b887-3f1189b38826)
 
 
-Explanation:
+### Explanation:
 The input specifies 4 variables and provides the minterms and don't-care terms.
 The minterms and don't-care terms are grouped by the number of ones in their binary representation.
 The PI Chart Matrix shows how each prime implicant (grouped by tuples of minterms) covers specific minterms.
