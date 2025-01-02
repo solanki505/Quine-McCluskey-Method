@@ -1,15 +1,20 @@
 # Quine-McCluskey-Method
-Quine-McCluskey Algorithm
+## Quine-McCluskey Algorithm
 This project implements the Quine-McCluskey algorithm (also known as the tabulation method) for minimizing boolean expressions. The algorithm takes as input the minterms and optional don't-care terms and produces the minimized Boolean expression in terms of prime implicants (PIs). It handles various edge cases, including cyclic PIs and semi-cyclic PIs, and displays the result in a tabular form for clarity.
 
-Features
-Handles all edge cases:
-Cyclic Prime Implicants: Detects and manages PIs that form cyclic dependencies.
-Semi-Cyclic Prime Implicants: Detects and handles PIs with partial cyclic relationships.
-Tabular PI representation: Presents the prime implicants (PIs) and essential prime implicants (EPIs) in a clear, tabular format.
-Efficient minimization: Optimizes boolean expressions by reducing the number of literals.
-User-friendly interface: Easy-to-read output for educational purposes.
-Edge Case Handling
+## Features
+### Handles all edge cases:
+#### Cyclic Prime Implicants: 
+Detects and manages PIs that form cyclic dependencies.
+#### Semi-Cyclic Prime Implicants: 
+Detects and handles PIs with partial cyclic relationships.
+#### Tabular PI representation: 
+Presents the prime implicants (PIs) and essential prime implicants (EPIs) in a clear, tabular format.
+#### Efficient minimization: 
+Optimizes boolean expressions by reducing the number of literals.
+#### User-friendly interface: 
+Easy-to-read output for educational purposes.
+#### Edge Case Handling
 1. Cyclic PIs
 In cases where a set of PIs forms a cycle (e.g., A implies B, B implies C, and C implies A), the algorithm can still find the essential PIs by breaking the cycle and resolving the expressions.
 
